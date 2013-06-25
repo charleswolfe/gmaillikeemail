@@ -1,0 +1,159 @@
+
+# {
+	position:         absolute;
+	top:              0px;
+	left:             0px;
+	right:            0px;
+	bottom:           0px;
+	overflow:         hidden;
+}
+
+
+#content {
+	position:         absolute;
+	top:              60px;
+	left:             60px;
+	right:            60px;
+	bottom:           60px;
+	padding:          5px;
+	padding-right:    6px;
+	overflow:         auto;
+	border:           1px solid rgba(30, 30, 30, .2);
+}
+
+.email_address_label {
+	float:           left;
+	width:           10%;
+}
+
+.email_address_label span {
+	position:        relative;
+	top:             5px;
+	font-weight:     600;
+}
+
+.email_address_wrapper {
+	float:           left;
+	width:           90%;
+}
+
+.email_addresses {
+	display:          inline-block;
+	position:         relative;
+	width:            100%;
+	min-height:       30px;
+}
+
+.email_addresses input {
+	width:   100%;
+	border: 2px solid #dadada;
+	padding:         0px;
+	box-shadow:      none;
+}
+
+.email_addresses input:focus {
+	outline: none;
+	border-color: #9ecaed;
+	box-shadow: 0 0 10px #9ecaed;
+}
+
+.manual_email_addresses {
+	position:         absolute;
+	top:              2px;
+	left:             2px;
+	bottom:           2px;
+	right:            200px;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.email_subject_label {
+	 float:           left;
+	 width:           10%;
+}
+
+.email_subject_label span {
+	 position:        relative;
+	 top:             5px;
+	 font-weight:     600;
+}
+
+.add_cc_label {
+	float:           left;
+	width:           10%;
+}
+
+.add_cc_label span {
+	position:        relative;
+	top:             5px;
+}
+
+.email_body_html_label {
+	 float:           left;
+	 width:           10%;
+}
+.email_body_html_label span {
+	 position:        relative;
+	 top:             5px;
+	 font-weight:     600;
+}
+
+.email_subject_wrapper {
+	 float:           left;
+	 width:           90%;
+	spellcheck:     true;
+}
+
+.email_subject_wrapper input {
+	width: 100%;
+	border: 2px solid #dadada;
+	padding:         0px;
+	box-shadow:      none;
+}
+
+.email_subject_wrapper input:focus {
+	width: 100%;
+	outline: none;
+	border-color: #9ecaed;
+	box-shadow: 0 0 10px #9ecaed;
+}
+
+.add_cc_wrapper {
+	float:           left;
+	width:           90%;
+}
+
+.email_attachments_wrapper {
+	 float:           left;
+	 width:           90%;
+}
+
+.email_attachments_wrapper button {
+	position:        relative;
+	margin-top:      2px;
+	height:          26px;
+}
+
+.email_attachments_wrapper button span {
+	position:        relative;
+	bottom:          2px;
+}
+ 
+.email_body_html_wrapper {
+	float:           left;
+	width:           90%;
+	spellcheck:     true;
+}
+
+.email_body_html_wrapper textarea {
+	height:          100px;
+	width:           100%;
+	max-width:       100%;
+}
+
+div.nicEdit-panel {
+	width: 100% !important;
+}
+
+.nicEdit-panelContain {
+	width: 100% !important;
+}
